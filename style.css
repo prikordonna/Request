@@ -2,22 +2,21 @@ body {
     margin: 0 auto;
 }
 
-div {
+div .inner {
+    background-color: #00b3b3;
     width: 100%;
+    padding: 20px 0;
 }
 
-button {
-    margin: 2% 10%;
+#wrapper, #header  {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-row-gap: 15px;
 }
 
-#wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#xml-sample, #promise-sample, #async-sample {
+    background-color:#b3cccc;
+    width: 100%;
 }
