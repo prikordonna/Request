@@ -26,8 +26,8 @@ function objects(jsonObj) {
     for (const i = 0; i < member.length; i++) {
         const line = document.createElement('p');
     
-        line.textContent = heroes[i].id + "<br>" + heroes[i].name + "<br>" + heroes[i].age;
+        line.textContent = member[i].id + "<br>" + member[i].name + "<br>" + member[i].age;
     
-        xml.innerHTML += line;
+        xml.innerHTML = line.textContent;
     }
   }
