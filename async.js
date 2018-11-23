@@ -5,7 +5,7 @@ async function getData() {
       return data;
     } 
     catch(error) {
-
+      console.log(error);
     }
 }
 //call the getData function
